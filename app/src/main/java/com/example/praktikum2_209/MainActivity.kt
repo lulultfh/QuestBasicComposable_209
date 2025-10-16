@@ -20,9 +20,13 @@ class MainActivity : ComponentActivity() {
         setContent {
             Praktikum2_209Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+//                    Greeting(
+//                        name = "Android",
+//                        modifier = Modifier.padding(innerPadding)
+//                    )
+                    // Panggil composable layout utama dengan pading dari Scaffold
+                    TataletakBoxColumnRow(
+                        modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
             }
