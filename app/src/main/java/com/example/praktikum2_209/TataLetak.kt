@@ -49,3 +49,8 @@ fun TataletakBox(modifier: Modifier){
         Text(text="Column2")
     }
 }
+
+@Composable
+fun TataletakColumnRow(modifier: Modifier){
+
+}
