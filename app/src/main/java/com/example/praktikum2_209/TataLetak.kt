@@ -39,5 +39,6 @@ fun TataletakBox(modifier: Modifier){
     Box(
         modifier = modifier
             .fillMaxHeight()
+            .fillMaxWidth()
     ) {  }
 }
