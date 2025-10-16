@@ -1,5 +1,6 @@
 package com.example.praktikum2_209
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,5 +23,6 @@ fun TataletakColumn(modifier: Modifier){
 
 @Composable
 fun TataletakRow(modifier: Modifier){
-    Row(modifier = Modifier.fillMaxWidth()) {  }
+    Row(modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly) {  }
 }
