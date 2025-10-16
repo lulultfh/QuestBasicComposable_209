@@ -54,6 +54,6 @@ fun TataletakBox(modifier: Modifier){
 fun TataletakColumnRow(modifier: Modifier){
     Column(){
         //Baris1
-        Row {  }
+        Row(modifier = modifier.fillMaxWidth()) {  }
     }
 }
